@@ -1,0 +1,77 @@
+/*html5 semantics tags*/ 
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+  
+   
+#page {
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    font-size: 18px;
+}
+
+#pageHeader {
+  margin-left: 20%;
+  margin-right: 20%;  
+    height: 40px;
+    padding: 40px;
+    text-align: center;
+    background: #eee;
+    
+}
+
+
+#pageNav {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;  
+   
+    height: 40px;
+    padding: 40px;
+    text-align: center;
+    background: #eee;
+    margin-bottom: 20px;
+
+}
+
+
+#pageSection {
+    margin-top: 10px;
+    height: 240px;
+    padding: 40px;
+    text-align: center;
+    background: #eee;
+    }
+
+
+#PageAside {
+    margin-top: 10px;
+    height: 240px;
+    padding: 40px;
+    text-align: center;
+    background: #eee;
+z-index: 1;
+    }
+
+#PageFooter {
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;  
+   
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background: #999;
+    
+    text-align: center;
+    background: #eee;
+    margin-bottom: 20px;
+}

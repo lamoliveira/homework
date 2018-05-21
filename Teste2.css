@@ -1,0 +1,66 @@
+/**
+ * Z-Index: let's us position elements on top of each other (the z-axis controls depth position)
+ **/
+ 
+
+ {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+  
+   
+#page {
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    font-size: 18px;
+}
+
+
+.box-set {
+ /*position: relative;*/
+ height: 960px;
+ background: darkgray;
+}
+
+#pageHeader {
+    top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;  
+    height: 40px;
+    padding: 40px;
+    text-align: center;
+    background: #eee;
+    
+}
+#pageNav {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;  
+   
+    height: 40px;
+    padding: 40px;
+    text-align: center;
+    background: #eee;
+    margin-bottom: 20px;
+}
+.box {
+  position: absolute;
+  top: 250px;
+  /*width: 150px;*/
+  height: 40px;
+  background: #eee;
+  }
+
+.box-1 {
+  left: 20%;
+}
+
+.box-2 {
+  right: 20%;   
+}
